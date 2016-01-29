@@ -29,7 +29,7 @@ while True:
             data = connection.recv(16)
             print >>sys.stderr, 'received "%s"' % data
             if data:
-                print >>sys.stderr, 'sending data back to the client'
+               # print >>sys.stderr, 'sending data back to the client'
                 #connection.sendall(data)
             else:
                 print >>sys.stderr, 'no more data from', client_address
