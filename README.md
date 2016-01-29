@@ -1,2 +1,4 @@
 # esp8266
-General esp stuff for side projects
+General stuff for the esp8266 side project
+Just a general compilation of usefull programs
+
